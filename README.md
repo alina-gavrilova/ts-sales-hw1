@@ -3,8 +3,7 @@
 Домашнее задание 1 по курсу «Прогнозирование временных рядов и обработка сигналов».
 
 Я анализирую ряд продаж товара **85099B** (JUMBO BAG RED RETROSPOT) из датасета
-[Online Retail (UCI)](https://archive.ics.uci.edu/dataset/352/online+retail). На лекции разбирался
-другой товар, 85123A. Показатель продаж: количество проданных штук (`Quantity`). Возвраты (счета на `C`)
+[Online Retail (UCI)](https://archive.ics.uci.edu/dataset/352/online+retail). Показатель продаж: количество проданных штук (`Quantity`). Возвраты (счета на `C`)
 и строки с `Quantity <= 0` в расчёт не входят.
 
 Весь ход анализа, графики и интерпретации лежат в `sales_analysis.ipynb`, а методы в `src/ts_tools.py`:
