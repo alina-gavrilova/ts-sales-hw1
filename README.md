@@ -102,15 +102,3 @@ IQR отметил 14 точек, MAD 15, остаток STL 60 (слишком 
 
 В `data/` ноутбук сохраняет очищенные ряды: `sales_85099B_daily.csv`, `sales_85099B_weekly.csv`
 и `sales_85099B_monthly.csv`.
-
-## Как запустить
-
-```bash
-python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-jupyter notebook sales_analysis.ipynb
-```
-
-Файл с данными скачивается автоматически при первом запуске. Если интернета нет, положите
-`Online Retail.xlsx` в папку `data/`. Ноутбук выполняется сверху вниз, корень репозитория он находит сам.
