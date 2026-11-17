@@ -95,7 +95,7 @@ IQR отметил 14 точек, MAD 15, остаток STL 60 (слишком 
 ├── sales_analysis.ipynb   # ход анализа, графики, интерпретация (с результатами запуска)
 ├── src/ts_tools.py        # функции анализа и предобработки
 ├── figures/               # графики из ноутбука
-├── data/                  # Online Retail.xlsx (в git не попадает) и csv с рядами продаж
+├── data/                  # Online Retail.xlsx и csv с рядами продаж
 ├── requirements.txt
 └── README.md
 ```
